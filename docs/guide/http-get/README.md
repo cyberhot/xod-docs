@@ -1,5 +1,6 @@
 ---
 title: Fetching Data from Web API’s with HTTP GET requests
+version: 1.0.1
 ---
 
 # Fetching Data from Web with HTTP GET requests
@@ -47,7 +48,7 @@ LCD.
 We need an established internet connection for the device to go on. How to make
 it depends on the module you use as the internet provider. Refer to
 [Connecting W5500](../w5500-connection/) for an example of connecting an
-Ethernet Shield board.
+Ethernet Shield board or [Connecting ESP8266-based MCUs](../esp8266-native-wifi/).
 
 From now on, we expect you’ve created a node named `internet` encapsulating your
 internet connection.
